@@ -35,11 +35,9 @@ def monopoly_with_third_tier
       pieces: 4,
       rent_in_dollars: {
            :one_piece_owned => 25,         
-           :two_pieces_owned => 50,  <===this will give you the same result 
-        three_pieces_owned:   100, 
-# alt  :three_pieces_owned => 100, <===this will give you the same result 
-        four_pieces_owned:    200
-# alt  :four_pieces_owned =>  200  <===this will give you the same result 
+           :two_pieces_owned => 50,  
+           :three_pieces_owned => 100,
+           :four_pieces_owned =>  200  
       }, 
       names: {
         reading_railroad: {},
